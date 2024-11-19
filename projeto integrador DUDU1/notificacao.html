@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDUTOGETHER Chatbot</title>
+    <link rel="stylesheet" href="./style/inicial.css">
+</head>
+<body>
+    <div class="boxInicial">
+        <div class="menu">
+            <div id="Agendalogo">
+                <a href="./index.html">
+                    <img width="50rem" src="./imgs/logo.png" alt="Logo">
+                </a>
+            </div>
+            <div id="calender" class="Agenda">
+                <div class="agendaIMG">
+                    <img width="8rem" src="./imgs/calender.png" alt="Calendário">
+                </div>
+                <div class="agendaTEXT">
+                    <p>Calendário</p>
+                </div>
+            </div>
+            <div id="notas" class="Agenda">
+                <div class="agendaIMG">
+                    <img width="8rem" src="./imgs/nota.png" alt="Notas">
+                </div>
+                <div class="agendaTEXT">
+                    <p>Notas</p>
+                </div>
+            </div>
+            <div id="faltas" class="Agenda">
+                <div class="agendaIMG">
+                    <img width="8rem" src="./imgs/falta.png" alt="Faltas">
+                </div>
+                <div class="agendaTEXT">
+                    <p>Faltas</p>
+                </div>
+            </div>
+            <div class="Agenda" id="notificacao">
+                <div class="agendaIMG">
+                    <img width="8rem" src="./imgs/message.png" alt="Notificações">
+                </div>
+                <div class="agendaTEXT">
+                    <p>Chat</p>
+                </div>
+            </div>
+        </div>
+
+        <h1 id="chatTitle">Chat</h1>
+
+        <div id="C-calendario" class="conteudo">
+            <div class="chat-container">
+                <div class="chat-box" id="chat-box">
+                    <!-- As mensagens do chat serão exibidas aqui -->
+                </div>
+                <div id="options-container">
+                    <!-- As opções serão adicionadas aqui dinamicamente -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script/chatbox.js"></script>
+    <script src="./script/inicial.js"></script> 
+</body>
+</html>
